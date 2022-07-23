@@ -30,8 +30,8 @@ mark {
   
   .button {
     /* background-color: #f2fbfa; */
-    background-color: hsla(79,50%,72%,.1);
-    color: #3b9883;
+    background-color: rgba(180, 201, 134, 0.26);
+    color: #508D68;
     display: block;
     transition-duration: 0.1s;
     width: 100%;
@@ -101,7 +101,7 @@ a {
 a:hover {
 color: #508d68;
 text-decoration: underline;
-text-decoration-color: white;
+text-decoration-color: #508d68;
 background-color: hsla(79,50%,72%,.1);
 font-weight: bolder;
 }
