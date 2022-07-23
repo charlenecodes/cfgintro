@@ -1,17 +1,27 @@
-img {
+
+img.myphoto {
     border-radius: 50%;
     max-width: 10%;
     opacity: 0.8;
   }
 
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  padding: 15px 5px 0px -5px;
+}
+
 mark {
-  background-color: rgb(255, 215, 221);
-  color: rgb(182, 3, 3);
+  background-color: #508D68;
+  color: white;
+  padding: 0 0.2em;
   }
   
   .button {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #f2fbfa;
+    color: burlywood;
     display: block;
     transition-duration: 0.1s;
     width: 100%;
@@ -21,8 +31,8 @@ mark {
   }
   
   .button:hover {
-    background-color: rgb(255, 215, 221);
-    color: rgb(135, 4, 4);
+    background-color: #508D68;
+    color: white;
   }
   body {
     background-color:white"
@@ -34,10 +44,63 @@ h1, h2 {
 }
 
 span {
-  color: black;
-  background-color: rgb(255, 215, 221);
+  color: white;
+  background-color: #7BAE83;
   text-decoration: underline;
-  text-decoration-color: rgb(182, 3, 3);
-  text-decoration-thickness: 5px;
-  
+  text-decoration-color: white;
+}
+
+.nav {
+  border-top: 1px #508D68 solid;
+  border-bottom: 1px #508D68 solid;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Karla";
+  padding: 20px;
+  color: #7BAE83;
+  text-transform: uppercase;
+}
+
+li {
+  font-family: sans-serif;
+  color: #508D68;
+}
+
+main {
+  font-family: "Bebas Neue";
+}
+
+table {
+  font-size: 24px;
+  text-align: center;
+  color: #508D68;
+}
+
+.intro {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+color: #508d68;
+text-decoration: underline;
+text-decoration-color: white;
+font-weight: bolder;
+}
+
+span {
+  background-color: #508D68;
+  color: white;
+}
+
+mark.underline {
+  text-decoration: underline;
+  text-decoration-color: #508d68;
+  padding: 0 0.2em;
 }
