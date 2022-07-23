@@ -26,7 +26,7 @@ mark {
     transition-duration: 0.1s;
     width: 100%;
     border: none;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 40px;
   }
   
@@ -39,7 +39,8 @@ mark {
   }
 
 h1, h2 {
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Bebas Neue', cursive;
+
   font-size: 35px;
 }
 
@@ -64,12 +65,12 @@ span {
 }
 
 li {
-  font-family: sans-serif;
+  font-family: "Karla";
   color: #508D68;
 }
 
 main {
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Bebas Neue', cursive;
 }
 
 table {
@@ -80,6 +81,7 @@ table {
 
 .intro {
   text-align: center;
+  font-size: 24px;
 }
 
 a {
