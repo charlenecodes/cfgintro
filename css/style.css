@@ -21,7 +21,7 @@ mark {
   
   .button {
     background-color: #f2fbfa;
-    color: burlywood;
+    color: #B48B58;
     display: block;
     transition-duration: 0.1s;
     width: 100%;
@@ -51,7 +51,7 @@ span {
   text-decoration-color: white;
 }
 
-.nav {
+div.nav {
   border-top: 1px #508D68 solid;
   border-bottom: 1px #508D68 solid;
   display: flex;
@@ -96,13 +96,19 @@ text-decoration-color: white;
 font-weight: bolder;
 }
 
+/* This is a CSS comment
+
 span {
   background-color: #508D68;
   color: white;
 }
 
-mark.underline {
+*/
+
+span {
   text-decoration: underline;
   text-decoration-color: #508d68;
+  color: black;
+  background-color: white;
   padding: 0 0.2em;
 }
