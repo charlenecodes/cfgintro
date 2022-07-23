@@ -5,12 +5,21 @@ img.myphoto {
     opacity: 0.8;
   }
 
-img.logo {
+img.header {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 30%;
   padding: 15px 5px 0px -5px;
+}
+
+img.footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  background: repeat-x;
+  padding-top: 40px;
 }
 
 mark {
@@ -20,8 +29,9 @@ mark {
   }
   
   .button {
-    background-color: #f2fbfa;
-    color: #B48B58;
+    /* background-color: #f2fbfa; */
+    background-color: hsla(79,50%,72%,.1);
+    color: #3b9883;
     display: block;
     transition-duration: 0.1s;
     width: 100%;
@@ -32,6 +42,7 @@ mark {
   
   .button:hover {
     background-color: #508D68;
+    /* background-color: hsla(79,50%,72%,.1); */
     color: white;
   }
   body {
@@ -40,7 +51,6 @@ mark {
 
 h1, h2 {
   font-family: 'Bebas Neue', cursive;
-
   font-size: 35px;
 }
 
@@ -57,9 +67,8 @@ div.nav {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 18px;
   font-family: "Karla";
-  padding: 20px;
+  padding: 15px;
   color: #7BAE83;
   text-transform: uppercase;
 }
@@ -93,6 +102,7 @@ a:hover {
 color: #508d68;
 text-decoration: underline;
 text-decoration-color: white;
+background-color: hsla(79,50%,72%,.1);
 font-weight: bolder;
 }
 
@@ -105,10 +115,20 @@ span {
 
 */
 
-span {
+span, .underline {
   text-decoration: underline;
   text-decoration-color: #508d68;
   color: black;
   background-color: white;
   padding: 0 0.2em;
+}
+
+div.center {
+  text-align: center;
+}
+
+table {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
 }
