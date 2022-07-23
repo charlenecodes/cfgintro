@@ -26,7 +26,7 @@ mark {
     transition-duration: 0.1s;
     width: 100%;
     border: none;
-    font-family: "Bebas Neue";
+    font-family: 'Ibarra Real Nova', serif;
     font-size: 40px;
   }
   
@@ -39,7 +39,7 @@ mark {
   }
 
 h1, h2 {
-  font-family: "Bebas Neue";
+  font-family: 'Ibarra Real Nova', serif;
   font-size: 35px;
 }
 
@@ -69,7 +69,7 @@ li {
 }
 
 main {
-  font-family: "Bebas Neue";
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 table {
